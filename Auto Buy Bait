@@ -1,0 +1,44 @@
+while wait () do
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 6
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 5
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 4
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 2
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "FishingMerchant",
+    [2] = 3
+}
+
+game:GetService("ReplicatedStorage").Network.CustomMerchants_Purchase:InvokeServer(unpack(args))
+end
